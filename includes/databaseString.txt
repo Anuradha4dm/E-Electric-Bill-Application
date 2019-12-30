@@ -1,0 +1,1 @@
+INSERT INTO student(age,subjects,grade,name) VALUES(23,'mathematics','11-D','anuradha')

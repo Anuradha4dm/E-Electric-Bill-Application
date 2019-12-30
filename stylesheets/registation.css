@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=greek,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap&subset=latin-ext');
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image:url("../images/image1.jpg") ;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contend{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+    background-color:black;
+    width: 500px;
+    height: 800px;
+    position: relative;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#headReg {
+
+   text-decoration: none;
+   margin : 10px  auto ;
+   text-align: center;
+   font-size: 60px;
+   opacity: 1;
+}
+
+#profilePic{
+    width: 150px;
+    margin-left: 170px;
+    margin-top: -70px;
+   
+
+   
+}
+
+input[type="text"], input[type="password"],input[type="date"],input[type="number"]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 30px;
+    padding-left:12px;
+    color:white;
+    padding:10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+#show-result{
+
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.submitBtn{
+
+    font-size:20px;
+    background-color: crimson;
+    border:none;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    position:absolute;
+    margin-left: 100px;
+}
