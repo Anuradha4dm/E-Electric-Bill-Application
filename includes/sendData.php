@@ -9,13 +9,13 @@
         $password=$_POST["password"];
 
 
-        $pass=password_hash($password,PASSWORD_DEFAULT);
+        $pass=sha1($password);
          
         $sql="INSERT INTO `users`(`billNumber`, `fname`, `lname`, `userPassword`) VALUES ('$billNum','$fname','$lname','$pass');";
        mysqli_query($conn,$sql);
 
        
-        header("Location:../login.php");
+        header("Location: ../index.php");
         
 
        ?>

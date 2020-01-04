@@ -1,0 +1,28 @@
+<!-- 
+
+    <script>
+	let buttonEnable;
+
+   function password_match(){
+    var password1 = document.getElementById('password_login_id').value ; 
+    var password2 =;
+    
+     $.post("includes/check.php", {
+     pass1: password1, pass2: password2 
+      },
+   
+   function(data, status){
+	
+   document.getElementById('show-result').innerHTML = data ; 
+   
+   }
+   ); 
+
+}
+
+	
+	
+
+   </script>
+
+     -->

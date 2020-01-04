@@ -23,7 +23,8 @@
 			
 			<input type="text" id="firstname_id" name="firstname" placeholder="Firstname" required>
 			<input type="text" id="lastname_id" name="lastname" placeholder="Lastname" required>
-			<input type="number" id="billnumber_id" name="billnumber" placeholder="Bill Number" required>
+			<input type="email" id="email_id" name="email" placeholder="E-Mail" required>
+			<input type="number" id="billnumber_id" name="billnumber" placeholder="Account Number" required>
 			<input type="password" id="password_id" name="password" placeholder="password" required>
 			<input type="password" id="passwordConfirm_id" name="passwordConfirm" onfocusout="password_match()" placeholder="Confirm Password" required>
 			<h2 id="show-result"></h2>

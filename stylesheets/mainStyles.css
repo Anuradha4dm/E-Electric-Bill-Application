@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500&display=swap&subset=latin-ext');
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("../images/image1.jpg") ;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navigation{
+    color:white;
+    background-color:black;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    left: 60px;
+    justify-items: center;
+    list-style: none;
+    margin-top: 100px;
+
+}
+li{ 
+    color: white;
+    margin:10px;
+    font-size: 25px;
+    margin-top: 50px;
+   
+
+}
+
+ul{
+    text-decoration: none; 
+    list-style: none;   
+
+}
+
+a{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+    color: rgba(161, 173, 241, 0.705);
+    border-bottom: 2px solid rgba(229, 230, 238, 0.486);
+
+}
+
+.valueReader, .currentBillContend, .billHistory{
+    background-color: #008ae6;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    margin-top: 100px;
+    margin-left:400px ;  
+
+}
+
+
+
+.headerBar{
+    background-color: black;
+    height: 100px;
+}
+
+.meterHeder, .currentBill{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.meter, .currentBillShow{
+    font-size:100px;
+    color: rgb(198, 241, 197);
+    text-align: center;
+    
+}
+
+#datetime, #datetime_class{
+    color: rgb(198, 241, 197);
+    font-size:35px;
+    margin-left: 20px;
+}
+
+#billHistory_id{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.billTable{
+    width: 100px;
+    position: absolute;
+    color: blanchedalmond;
+    padding: 20px;
+
+}
+
+table, td ,th{
+    color: beige;
+    border:2px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+    
+
+
+    
+}
+td ,th{
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    
+}
+
+
+
