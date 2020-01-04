@@ -22,7 +22,7 @@ body{
     color:white;
     background-color:black;
     width: 500px;
-    height: 800px;
+    height: 500px;
     position: relative;
     padding: 10px;
     margin: 10px auto;
@@ -79,5 +79,11 @@ input[type="text"], input[type="password"],input[type="date"],input[type="number
     color: white;
     position:absolute;
     margin-left: 100px;
+}
+
+#password_login_id{
+
+
+
 }
 

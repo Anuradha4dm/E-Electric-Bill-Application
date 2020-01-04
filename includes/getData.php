@@ -3,18 +3,18 @@
 <?php
 include "databaseConnection.php";
 
-	$sql="SELECT * FROM student;";
+$AccountNum=$_POST["billnumber_id"];
+
+	$sql="SELECT * FROM `users` WHERE `billNumber`=100;";
 	$result=mysqli_query($conn,$sql);
 	$resultCheck=mysqli_num_rows($result);
+	
 
 	if($resultCheck>0){
-		while($row=mysqli_fetch_assoc($result)){
-
-			$subject= $row["subjects"];
-			$grade= $row["grade"];
-			$id= $row["id"];
-
-		}
+		echo 'found';
+	}
+	else{
+		echo "not found";
 	}
 
 	?>
